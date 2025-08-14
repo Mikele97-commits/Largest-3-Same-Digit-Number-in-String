@@ -1,6 +1,10 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        Solution.largestGoodInteger("36321222643337666555100036311111");
+        Scanner sc = new Scanner(System.in);
+        String number = sc.nextLine();
+        Solution.largestGoodInteger(number);
 
     }
 }
